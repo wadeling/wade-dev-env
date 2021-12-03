@@ -7,6 +7,7 @@ RUN apt-get update && \
 #others
 apt install -y wget \
 curl \
+git \
 cmake \
 build-essential \
 autoconf \
@@ -24,6 +25,8 @@ libssl-dev \
 zlib1g \
 zlib1g-dev \
 libbz2-dev \
+libncurses5-dev \
+libncursesw5-dev \
 libxml2-dev \
 libpcre2-dev \
 libjson-c-dev \
